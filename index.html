@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Entry field</title>
+
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/select.css">
+    <link rel="stylesheet" href="style/date.css">
+</head>
+<body>
+
+<h2 class="header-field">Поля ввода</h2>
+
+<div class="form-control input">
+    <input type="text" id="field" required>
+    <label for="field">Город*</label>
+</div>
+<br><br>
+
+
+<h2 class="header-field">Поле ввода с номером телефона </h2>
+
+<div class="form-control input">
+    <input type="text" id="tel" value="+7" required>
+    <label for="tel">Номер телефона*</label>
+</div>
+
+<br><br>
+
+
+<h2 class="header-field">Поле ввода с выбором даты </h2>
+<div class="form-control input">
+    <input type="date" id="date" name="date"
+           placeholder="Выберите дату" required>
+</div>
+
+
+<br><br>
+
+<h2 class="header-field">Поле ввода с множественным вводом </h2>
+<textarea class="form-control textarea" id="comment-textarea"
+          placeholder="Ваш комментарий*">
+</textarea>
+
+<br><br>
+
+<h2 class="header-field">Дропдаун</h2>
+<select name="favorites">
+    <option value="XS">XS</option>
+    <option value="S">S</option>
+    <option value="M">M</option>
+    <option value="L">L</option>
+    <option value="XL">XL</option>
+</select>
+
+
+</body>
+
+</html>
+
+
+
+
